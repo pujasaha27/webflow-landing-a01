@@ -1,4 +1,11 @@
+/* universal styles */
+
+body{
+    background-color: #f5f8ff;
+}
+
 /* shared styles */
+
 .inter-font {
   font-family: "Inter";
   font-optical-sizing: auto;
@@ -16,11 +23,10 @@
 
 .bg-pic{
     background-image: url(../Assets/Hero-bg.png);
-    width: 1590px;
-    height: 720px;
+    width: 1560px;
+    height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 /* nav styles */
@@ -63,7 +69,7 @@
 .header-banner{
     width: 905px;
     height: 280px;
-    margin: 140px 350px ; 
+    margin: 180px 350px ; 
 }
 
 .banner-heading{
@@ -89,4 +95,58 @@
     border-radius: 10px;
     margin-left: 370px;
     margin-top: 0px;
+}
+
+/* webflow conf styles */
+
+.webflow-conf{
+    width: 1140px;
+    height: 328px;
+    margin: 130px 230px ; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.conf-content{
+    margin-top: 50px;
+}
+
+.conf-content h3{
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    color: #252432;
+    
+}
+
+.conf-content p{
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    width: 430px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-top: -15px;
+}
+
+.conf-mini-pic{
+    border-radius: 48px;
+    width: 380px;
+    height: 328px;
+}
+
+.conf-btn{
+    width: 200px;
+    height: 40px;
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
