@@ -1,0 +1,14 @@
+/* header styles */
+
+.bg-pic{
+    background-image: url(../Assets/Hero-bg.png);
+    width: 1440px;
+    height: 698px;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
