@@ -119,7 +119,8 @@ body{
 }
 
 .conf-content{
-    margin-top: 50px;
+    margin-top: 70px;
+    padding-left: 30px;
 }
 
 .conf-content h3{
@@ -146,6 +147,7 @@ body{
     border-radius: 48px;
     width: 380px;
     height: 328px;
+    margin-top: 30px;
 }
 
 .conf-btn{
@@ -168,7 +170,10 @@ body{
     background-color: #E5E7FF;
     width: 1140px;
     height: 315px;
-    margin: 130px 230px ;
+    margin-top: 200px;
+    margin-left:230px ;
+    margin-right: 230px;
+    margin-bottom: 0px;
     border-radius: 25px;
 }
 
@@ -214,7 +219,10 @@ body{
 .rating {
     width: 905px;
     height: 380px;
-    margin: 130px 330px ;
+    margin-top: 100px;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-bottom: 0px;
 }
 
 .rating-head{
@@ -373,11 +381,12 @@ body{
     font-weight: bold;
     width: 520px;
     height: 230px;
-    margin-top: 100px;
+    margin-top: 90px;
+    padding-left: 40px;
 }
 
 .form-input{
-    margin-right: 100px;
+    margin-right: 60px;
     margin-top: 50px;
 }
 
@@ -407,7 +416,7 @@ body{
     border-radius: 10px;
     border: none;
     width: 390px;
-    height: 140px;
+    height: 130px;
     border-radius: 10px;
     border-color: rgba(0, 0, 0, 0.1);
     border-style: solid;
@@ -419,6 +428,13 @@ input::placeholder{
     color: rgba(0, 0, 0, 0.5);
 }
 
+textarea::placeholder{
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 .touch-btn{
     font-family: "Raleway";
     font-optical-sizing: auto;
@@ -427,11 +443,11 @@ input::placeholder{
     font-size: 16px;
     background-color: #4E47FF;
     color: white;
-    width: 390px;
+    width: 400px;
     height: 48px;
     border: none;
     border-radius: 10px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .footer{
