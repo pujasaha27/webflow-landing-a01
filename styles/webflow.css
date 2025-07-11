@@ -18,6 +18,12 @@ body{
   font-style: normal;
 }
 
+.btn-design:hover{
+    background-color: white;
+    color: rgb(255, 0, 238);
+    border-color:rgb(255, 0, 238) ;
+    border-style: solid;
+}
 
 /* header styles */
 
@@ -45,6 +51,11 @@ body{
     color: #4E47FF;
     padding: 20px 0 0 150px;
 }
+
+.nav-logo:hover{
+    color: rgb(255, 0, 238);
+}
+
 
 .signup-btn{
     font-family: "Raleway";
@@ -149,4 +160,106 @@ body{
     color: white;
     border: none;
     border-radius: 10px;
+}
+
+/* users styles */
+
+.users{
+    background-color: #E5E7FF;
+    width: 1140px;
+    height: 315px;
+    margin: 130px 230px ;
+    border-radius: 25px;
+}
+
+.users-heading{
+    color: #252432;
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.user-parent{
+    display: flex;
+    gap: 170px;
+    margin-top: -15px;
+    margin-left: 225px;
+}
+
+.user-content h2{
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+}
+
+.user-content p{
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -45px;
+    
+}
+
+/* focus styles */
+.focus{
+    background-color: #ffff;
+    width: 1140px;
+    height: 700px;
+    margin: 130px 230px ;
+    border-radius: 14px;
+}
+
+.focus-content{
+    text-align: center;
+    padding: 50px;
+}
+
+.focus-content h2{
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 43px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.focus-content p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.focus-btn{
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #4E47FF;
+    color: white;
+    width: 192px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.focus-pic{
+    width: 840px;
+    height: 360px;
+    border-radius: 24px;
+    margin-left: 155px;
+    margin-top: -30px;
 }
